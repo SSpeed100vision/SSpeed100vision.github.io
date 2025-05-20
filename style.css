@@ -148,3 +148,30 @@ p {
   background: rgb(181, 26, 0,0.1);
   border-radius: 4px;
 }
+#surprise-screen {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: red;
+  color: black;
+  font-size: 4em;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 30vh;
+  z-index: 9999;
+  transition: opacity 0.5s ease-in-out;
+}
+
+#surprise-screen button#close-surprise {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 2em;
+  background: transparent;
+  border: none;
+  color: black;
+  cursor: pointer;
+}
